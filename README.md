@@ -2,6 +2,8 @@
 
 This project is a budget table application that you can run locally on your machine.
 
+# [Live Demo](https://budget-table.netlify.app/)🔗
+
 ## Getting Started
 
 Follow the steps below to set up and run the project.
