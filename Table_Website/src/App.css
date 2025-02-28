@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  color: #af9a8c;
+  margin-bottom: 20px;
+  position: relative;
+  position: fixed;
+  top: 3px;
+}
+
+.budget-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead th {
+  text-align: center;
+  color: #feb236;
+}
+
+.budget-table th, .budget-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.budget-table th {
+  background-color: #391a1a;
+}
+
+.parent-row {
+  background-color: #3790e2;
+  font-weight: bold;
+}
+
+.child-row {
+  background-color: #f9f9f9;
+}
+
+input {
+  width: 80px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px 10px;
+  margin: 5px;
+  border: none;
+  background-color: #fbfbfb;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
