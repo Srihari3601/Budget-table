@@ -92,12 +92,12 @@ function App() {
       <table border="1">
         <thead>
           <tr>
-            <th>Label</th>
-            <th>Value</th>
-            <th>Input</th>
-            <th>Allocation %</th>
-            <th>Allocation Val</th>
-            <th>Variance (%)</th>
+            <th style={{ width: "200px" }}>Label</th>
+            <th style={{ width: "100px" }}>Value</th>
+            <th style={{ width: "100px" }}>Input</th>
+            <th style={{ width: "100px" }}>Allocation %</th>
+            <th style={{ width: "100px" }}>Allocation Val</th>
+            <th style={{ width: "100px" }}>Variance (%)</th>
           </tr>
         </thead>
         <tbody>
