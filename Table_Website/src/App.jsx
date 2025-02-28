@@ -48,9 +48,9 @@ function App() {
         const variance = ((newValue - item.originalValue) / item.originalValue) * 100;
         
         if (item.children && field === "value") {
-          const totalOriginal = item.children.reduce((sum, child) => sum + child.originalValue, 0);
+          const totalCurrent = item.children.reduce((sum, child) => sum + child.value, 0);
           const updatedChildren = item.children.map((child) => {
-            const contributionPercent = child.originalValue / totalOriginal;
+            const contributionPercent = child.value / totalCurrent;
             const updatedChildValue = parseFloat((newValue * contributionPercent).toFixed(4));
             const childVariance = ((updatedChildValue - child.originalValue) / child.originalValue) * 100;
             return { ...child, value: updatedChildValue, variance: childVariance.toFixed(2) };
